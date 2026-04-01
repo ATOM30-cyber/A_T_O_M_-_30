@@ -2,45 +2,28 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Not Found</title>
     <style>
-        body {
-            background-color: #ffffff; /*  */
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-            font-family: sans-serif;
-            user-select: none; /*  */
-        }
-
+        body { background-color: #fff; margin: 0; height: 100vh; overflow: hidden; }
         /* */
-        .hidden-link {
-            color: #ffffff; /*  */
+        .nucleus-access {
+            color: #fff; 
             text-decoration: none;
-            font-size: 14px;
-            letter-spacing: 1px;
-            transition: all 0.5s ease;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1px; /**/
         }
-
-        /* */
-        /* */
     </style>
 </head>
 <body>
 
-    <a href="رابط_الصورة_الخامسة_هنا" class="hidden-link">https://atom30.com/stage-5-access-granted</a>
+    <a href="Kernel.py" id="secret-link" class="nucleus-access">DOWNLOAD_CORE_V5</a>
 
     <script>
-        // 
-        document.addEventListener('keydown', function(e) {
-            if (e.ctrlKey && e.key === 'a') {
-                console.log("Nice try, but the Nucleus is smarter.");
-            }
-        });
+        console.log("%cالنواة تراقبك..", "color: red; font-size: 20px;");
+        console.log("تلميح: غير شفافية (Opacity) العنصر 'secret-link' إلى 0.90 لتفعيل البوابة.");
     </script>
 </body>
 </html>
